@@ -99,13 +99,18 @@ img.logo-light {
   width: 60px;
 }
 
+.comingsoon1{
+  margin: auto;
+  color: #4AE675;
+  font-size: 4rem;
+}
+
 @media (min-width: 1800px) {
   .container {
     max-width: 1740px;
   }
   img.logo-dark {
     height: 90px;
-    width: 90px;
   }
   img.logo-light {
     height: 90px;
