@@ -1,3 +1,23 @@
+@font-face {
+  font-family: KareliaTrial;
+  src: url("fonts/KareliaTrial-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: MabryPro;
+  src: url("fonts/Mabry Pro Black.ttf")
+}
+
+@font-face {
+  font-family: Ramona;
+  src: url("fonts/Ramona-Bold.ttf")
+}
+
+body {
+  background-color: #121212;
+
+}
+
 #overlay {
   width: 100%;
   /* Full width (cover the whole page) */
@@ -7,7 +27,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(12, 0, 50, 0.8);
+  background-color: rgba(18, 18, 18, 0.7);
   /* Black background with opacity */
   z-index: 1;
 }
@@ -109,6 +129,128 @@ img.logo-light {
 }
 .color{
   color: #4AE675;
+}
+.change-font{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.white-color{
+  color: white;
+}
+.secondary-color{
+  color:#0030FF;
+}
+.btn-theme{
+  background-color: #4AE675 ;
+  color: #212121;
+}
+.btn-theme:hover{
+  font-weight: bold;
+  color: black;
+}
+
+.card-body{
+  background-color: #121212;
+  color: white;
+}
+.card-footer {
+  background-color: #121212;
+  border-top: none;
+}
+
+.card-text{
+  color: rgba(255, 255, 255, 0.87)
+}
+.registration{
+    background: url("../../images/backnew.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding: 3rem 0px;
+}
+
+.custom{
+  height: 52px;
+  font-size: 1rem;
+  border-radius: 200px
+}
+
+
+/* COUNTDOWN */
+
+#white-background {
+  background-color: white;
+}
+
+.counter{
+  background: url("../../images/backg.svg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+#text {
+  width: 70%;
+  margin: auto;
+}
+
+.img-countdown {
+  margin-top: -9%;
+}
+
+.num {
+  font-family: KareliaTrial;
+  -webkit-text-stroke-width: 0.14vw;
+  -webkit-text-stroke-color: white;
+  -webkit-text-fill-color: transparent;
+  font-size: 6.5rem;
+}
+
+.sup {
+  font-family: MabryPro;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.txt {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color:white;
+}
+
+@media(max-width: 1100px) {
+ 
+}
+
+@media(max-width: 786px) {
+ 
+
+  .num-md {
+      font-size: 4rem;
+  }
+
+  .sup-md {
+      font-size: 1.3rem;
+  }
+
+  .txt-md {
+      font-size: 1rem;
+  }
+}
+
+@media(max-width: 576px) {
+  .num-sm {
+      font-size: 2.5rem;
+  }
+
+  .sup-sm {
+      font-size: 1rem;
+  }
+
+  .txt-sm {
+      font-size: 0.8rem;
+  }
 }
 
 @media (min-width: 1800px) {
