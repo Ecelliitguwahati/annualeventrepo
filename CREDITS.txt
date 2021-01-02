@@ -8,9 +8,7 @@
 # Photographs Used
 
 <!--
-	Slider Photos - Sasank Gurajapu, Chapps Photography, Saurabh Soni, Jayadeep Karnati 
-	BG Photos - Sajith S.
-	Special Thanks to Montage (Photography Club of IITG)
+	
 -->
 
 # Illustrations used
@@ -30,5 +28,5 @@
 # Man behind the code
 
 <!--
-	Rishi Pathak | 7635941733 | https://github.com/rishipathak6
+	Priyanshu Gupta | 7518002500 | https://github.com/priyansh18a
 -->

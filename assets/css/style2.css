@@ -104,6 +104,12 @@ img.logo-light {
   color: #4AE675;
   font-size: 4rem;
 }
+.black-background{
+  background-color: #121212;
+}
+.color{
+  color: #4AE675;
+}
 
 @media (min-width: 1800px) {
   .container {
