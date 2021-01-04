@@ -343,6 +343,15 @@ img.logo-light {
   margin-top: 10px;
 }
 
+/* contact us */
+
+.input-glass.form-control {
+  color: white !important;
+}
+
+
+
+
 @media(max-width: 1100px) {
  
 }
