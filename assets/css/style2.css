@@ -234,15 +234,13 @@ img.logo-light {
 }
 /* Photo on-hover Animation */
 
-.item , .speaker {
+.item {
   flex: 1 1 0px;
   transition: transform 500ms;
 }
 
 .team-2 .item:focus,
-.team-2 .item:hover,
-.speaker-row .speaker:focus,
-.speaker-row .speaker:hover{
+.team-2 .item:hover{
   transform: scale(1.2);
   z-index: 1;
 }
