@@ -194,6 +194,9 @@ img.logo-light {
   font-weight: bold;
   color: black;
 }
+.card{
+  background-color:  #121212 !important;
+}
 
 .card-body{
   background-color: #121212;
