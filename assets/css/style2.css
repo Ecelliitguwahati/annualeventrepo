@@ -196,6 +196,8 @@ img.logo-light {
 }
 .card{
   background-color:  #121212 !important;
+  width: 100%;
+  text-align: center;
 }
 
 .card-body{
@@ -353,7 +355,10 @@ img.logo-light {
   color: white !important;
 }
 
-
+ul{
+  list-style: none;
+  padding-left: 0px;
+}
 
 
 @media(max-width: 1100px) {
