@@ -239,7 +239,7 @@ img.logo-light {
 }
 /* Photo on-hover Animation */
 
-.item {
+.item , .items {
   flex: 1 1 0px;
   transition: transform 500ms;
 }
@@ -248,6 +248,12 @@ img.logo-light {
 .team-2 .item:hover{
   transform: scale(1.2);
   z-index: 1;
+}
+
+.transform .items:focus,
+.transform .items:hover{
+  transform: scale(1.2);
+  z-index: 1000;
 }
 
 .card-body.flex-grow-0.text-center>p{
@@ -359,7 +365,9 @@ ul{
   list-style: none;
   padding-left: 0px;
 }
-
+li{
+  color: white;
+}
 
 @media(max-width: 1100px) {
  
